@@ -1,0 +1,150 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #f3f5f7;
+}
+
+header {
+  width: 100%;
+  min-height: 25vh;
+  background: linear-gradient(to right, #574ae8, #3ea1db);
+  padding: 40px;
+  margin-bottom: 100px;
+}
+
+footer {
+  width: 100%;
+  background: linear-gradient(to right, #574ae8, #3ea1db);
+  padding: 40px;
+  position: relative;
+  text-align: center;
+}
+
+.header-container {
+  margin: 0 auto;
+  width: 60%;
+  color: #fff;
+}
+
+.titulo {
+  display: flex;
+  justify-content: space-between;
+  font-family: 'Open Sans';
+  font-size: 1.3em;
+}
+
+.titulo a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.pesquisa {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.pesquisa input {
+  width: 100%;
+  height: 65px;
+  border: none;
+  outline: none;
+  background: rgba(255, 255, 255, 0.2);
+  padding-left: 10px;
+}
+
+.pesquisa i {
+  color: #fff;
+  height: 65px;
+  padding: 24px;
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.fas{
+  color: red;
+}
+
+::placeholder {
+  color: #fff;
+  font-family: Inter, sans-serif;
+}
+
+.main-container {
+  width: 57%;
+  margin: 0 auto;
+}
+
+.dia {
+  display: flex;
+  justify-content: space-between;
+  padding: 24px;
+}
+
+.data {
+  color: rgba(81, 81, 81, 0.7);
+  font-family: 'Open Sans';
+  font-size: 0.8em;
+}
+
+.noticia {
+  width: 100%;
+  margin-bottom: 100px;
+  min-height: 195px;
+  background: #fff;
+}
+
+.noticia h1 {
+  font-family: 'Open Sans';
+  font-size: 1.4em;
+  margin-bottom: 9px;
+  margin: 0 25px 25px 25px;
+}
+
+.noticia p {
+  font-family: 'Open Sans';
+  font-size: 0.9em;
+  margin: 0 25px;
+  line-height: 25px;
+  padding-bottom: 25px;
+  color: rgba(81, 81, 81, 0.7);
+}
+
+.noticia a {
+  text-decoration: none;
+  color: #000;
+}
+
+@media screen and (max-width: 375px) {
+
+  .titulo {
+    font-size: 1em;
+  }
+
+  .header-container {
+    margin: 0 auto;
+    width: 100%;
+  }
+
+  .pesquisa input {
+    height: 40px;
+  }
+
+  .pesquisa i {
+    height: 40px;
+    padding: 12px;
+  }
+
+  .main-container {
+    width: 90%;
+  }
+
+  .noticia {
+    margin-bottom: 50px;
+  }
+}
