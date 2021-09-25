@@ -148,3 +148,15 @@ footer {
     margin-bottom: 50px;
   }
 }
+
+.post-content-image {
+  max-width: 40%;
+  max-height: 100%;
+  overflow: hidden;
+}
+
+.fav-icon {
+  max-width: 250px;
+  cursor: pointer;
+  transition: transform 0.7s ease;
+}
